@@ -1,0 +1,25 @@
+{
+    "name": "zxgaer-blog",
+    "description": "Zxgaer's Blog",
+    "version": "1.0.0",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "docs:build": "vuepress-vite build src",
+        "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+        "docs:dev": "vuepress-vite dev src"
+    },
+    "devDependencies": {
+        "@vuepress/bundler-vite": "2.0.0-rc.31",
+        "gh-pages": "^6.3.0",
+        "sass-embedded": "^1.92.1",
+        "vue": "^3.5.34",
+        "vuepress": "2.0.0-rc.31",
+        "vuepress-theme-hope": "2.0.0-rc.110"
+    },
+    "dependencies": {
+        "@iconify/vue": "^5.0.1",
+        "katex": "^0.18.9",
+        "typed.js": "^3.0.0"
+    }
+}
