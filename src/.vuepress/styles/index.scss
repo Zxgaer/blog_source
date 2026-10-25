@@ -57,6 +57,10 @@
   background-position: center !important;
 }
 
+.vp-blog-mask::after {
+  display: none; /* 主页雾蒙蒙的看着难受 */
+}
+
 .vp-page.vp-blog {
   position: relative;
   isolation: isolate;

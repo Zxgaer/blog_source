@@ -22,6 +22,9 @@ export default hopeTheme({
     metaLocales: {
         editLink: "在 GitHub 上编辑此页",
     },
+    repo: "https://github.com/Zxgaer/blog_source",
+    repoLabel: "GitHub",
+    repoDisplay: true,
     markdown: {
         math: {
             type: "katex",
